@@ -1,10 +1,19 @@
 
-###
-
 ## Multi-agent reinforcement learning
 # Collaboration and competition
+##### _~a.k.a. Solving the game of two fly swatters ~_
+
+<br> Let's begin
 
 <img src="img/grab.jpg" width=20%>
+
+<br>
+
+...or (could not decide which meme to chose:) )
+
+<img src="img/female_tennis_1.jpg" width=20%>
+
+
 
 ### Context
 
