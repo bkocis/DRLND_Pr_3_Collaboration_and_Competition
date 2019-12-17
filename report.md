@@ -1,7 +1,7 @@
 
 ## Multi-agent reinforcement learning
 # Collaboration and competition
-##### _~a.k.a. Solving the game of two fly clappers ~_
+__~a.k.a. Solving the game of two fly clappers ~__
 
 <br> Let's begin
 
