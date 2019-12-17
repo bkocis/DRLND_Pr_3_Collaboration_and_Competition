@@ -42,7 +42,7 @@ After [Lillicrap et al. (2016)](https://arxiv.org/abs/1509.02971):
 
 ### 1. Approach
 
-I started out from the code for the ddpg-pendulum environment solution from the [udacity deep-reinforcement-learning repo](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum).
+I started out from the code of my solution for the [Project 2](https://github.com/bkocis/DRLND_Pr_2_Continuous_Control).
 In the first steps I modified the environment specific variables from the openGym, to the udacity environment. For the solution of the environment I used the Deep Deterministic Policy Gradient (DDPG) algorithm.
 
 
@@ -63,7 +63,7 @@ if state.dim() == 1:
 ```
 
 ##### Gradient clipping
-The implementation of gradient clipping is via the `clip_grad_norm` method, and the it is placed after the `backward()` and the next step of the __critic__ optimizer in the `ddpg_agent.py` file [here](https://github.com/bkocis/DRLND_Pr_2_Continuous_Control/blob/master/ddpg_agent_Copy2.py#L119)
+The implementation of gradient clipping is via the `clip_grad_norm` method, and the it is placed after the `backward()` and the next step of the __critic__ optimizer in the `ddpg_agent_tennist.py` file [here](https://github.com/bkocis/DRLND_Pr_3_Collaboration_and_Competition/blob/master/ddpg_agent_tennis.py#L119)
 
 ```python
 torch.nn.utils.clip_grad_norm_(self.critic_local.parameters(), 1)
@@ -111,7 +111,7 @@ The table list out the best set of parameters after many experiments:
 
 ### Future Work / Improvement points
 
-- share experiences between the two agents OR define to separate agents that are not sharing experiences between each other
+- It would be interesting to compare the case of training with share experiences between the two agents and the training where the two agents learn separately not sharing experiences between each other.
 
 - Reproducibility of good training session
 
